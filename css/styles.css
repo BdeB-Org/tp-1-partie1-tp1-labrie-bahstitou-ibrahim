@@ -1,0 +1,54 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Centre le contenu */
+}
+
+a {
+    color: #0070c9;
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Ajoute des styles spécifiques pour les titres de produits */
+p1, p2 {
+    display: block; /* Transforme p1 et p2 en bloc pour qu'ils prennent toute la largeur */
+    margin: 20px 0; /* Ajoute de l'espace autour des paragraphes */
+    font-weight: bold;
+    color: #000; /* Texte plus foncé pour les titres */
+}
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centre le conteneur */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ajoute une légère ombre autour du conteneur */
+}
+
+/* Ajoute un peu d'espace autour des liens pour les rendre plus faciles à cliquer */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #0070c9;
+    color: white;
+    border-radius: 5px; /* Arrondit les coins */
+}
+
+a:hover {
+    background-color: #0056a4; /* Assombrit le bouton au survol */
+}
